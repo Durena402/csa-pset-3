@@ -1,4 +1,3 @@
-import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
@@ -31,7 +30,6 @@ public class Excercise7 {
         DecimalFormat df2 = new DecimalFormat("0.00");
         df2.setGroupingUsed(true);
         df2.setGroupingSize(3);
-        df2.setRoundingMode(RoundingMode.UP);
         System.out.println("\n$" + df2.format(receive) + ".");
     }
 }

@@ -15,8 +15,8 @@ public class Excercise9 {
 
         int nickels = (int) (amount / .05);
         amount %= .05;
-
-        int pennies =  (int) (amount / 0.01) + (int) 0.99;
+        System.out.println(amount);
+        int pennies =  (int) (amount / 0.01);
 
         System.out.println("\nQuarters : " + quarters);
         System.out.println("Dimes    : " + dimes);
